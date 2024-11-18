@@ -1,0 +1,132 @@
+.sec-body-support-nystai {
+    height: fit-content;
+    display: flex;
+    align-items: center ;
+    padding: 30px 0px 100px 0px;
+  }
+  
+  .contact-right-support-nystai {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .list-group-item{
+    border: none;
+    background: #F6F8FA;
+  }
+  
+  .support-sales-card-nystai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    background: #F6F8FA;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #9898988c, -10px -10px 20px #ffffff;
+    transition: 1s;
+  }
+  
+  .support-sales-card-nystai li {
+    font-weight: 500;
+    font-size: 15px;
+    font-size: small;
+  }
+  
+  .support-sales-card-nystai img {
+  
+    height: 12vh;
+    width: fit-content;
+  }
+  
+  .support-sales-card-nystai .list-group-item {
+    letter-spacing: 0.1rem;
+    line-height: 0.25rem;
+  }
+  
+  
+  .support-sales-card-nystai:hover {
+    border-radius: 19px;
+    background: #F6F8FA;
+    box-shadow: -5px -5px 10px #989898a6,
+      10px 10px 20px #ffffff;
+    transition: 1s;
+    transform: scale(1.01);
+  }
+  
+  
+  
+  
+  
+  /* form */
+  input[ type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .sales-form-support-nystai {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  
+  /* faqs */
+  .accordion {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto -5px;
+    background: #fbfbfb !important;
+  }
+  
+  .accordion-button {
+    font-size: medium;
+    letter-spacing: 1px;
+    background-color: #fbfbfb !important;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #1b6763;
+    background-color: #f5f5f5 !important;
+    text-decoration: underline;
+  
+  }
+  
+  .accordion-collapse {
+    color: #1b6763;
+    font-size: small;
+    letter-spacing: 2px;
+    line-height: 20px;
+  }
+  
+  .accordion-collapse code {
+    color: #1b6763;
+    font-weight: bold;
+  }
+  
+  
+  

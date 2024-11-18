@@ -1,0 +1,661 @@
+@import url(https://db.onlinewebfonts.com/c/b1e31a1d280949f471da840203e74668?family=Kabob+Regular);
+
+* {
+  font-family: 'kabob';
+}
+
+@font-face {
+  font-family: kabob;
+  src: url("./font/Kabob.ttf");
+}
+
+
+.disbtn1 {
+  background-color: #151515;
+  border-radius: 25px;
+  padding: 5px;
+
+}
+
+.arrow-btn {
+  color: #FFF;
+  padding: 15px;
+}
+
+
+* {
+
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card1 {
+  border: none;
+  outline: none;
+  padding: 40px;
+}
+
+
+
+.solusecmain {
+  padding-top: 30px;
+
+}
+
+.secintromainsolutionn {
+  padding-top: 20px;
+}
+
+/* icontext */
+.iconimgtext {
+  position: relative;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* parrallex */
+#orange-sectionmain {
+  color: #FFF;
+  padding: 7% 0;
+
+  background-image: linear-gradient(72deg, #39318680, rgba(0, 0, 0, 0.78)), url("./font/cam.jpg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#orange-sectionmain3 {
+  color: #FFF;
+  padding: 7% 0;
+
+  background-image: linear-gradient(72deg, #39318680, rgba(0, 0, 0, 0.78)), url("./font/solimg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#orange-sectionmain2 {
+  color: #FFF;
+  padding: 7% 0;
+
+  background-image: linear-gradient(72deg, #39318680, rgba(0, 0, 0, 0.78)), url("./font/SMARTPRO.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+Link,
+img,
+hr,
+button,
+body,
+pre,
+span {
+  font-family: "KABOB";
+  letter-spacing: .1rem;
+
+
+  text-decoration: none;
+}
+
+* {
+
+  box-sizing: border-box;
+  font-family: "kabob";
+  list-style-type: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+/* Services specialization section styling */
+
+
+.service-image {
+  width: 60px;
+  padding: 6px;
+}
+
+
+
+.learn-more {
+  text-decoration: none;
+  color: #919198;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  transition: all 300ms ease;
+  border-bottom: 2px solid transparent;
+}
+
+.learn-more:hover {
+  border-bottom: 2px solid #1B6763;
+}
+
+/*
+  
+  
+  
+  /* main */
+
+/* parrallex */
+
+
+
+
+
+
+/* sectionproductbus */
+
+/* Sections */
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1380px) {
+
+  /* largescreen morethan 1200px */
+  .tabnavhead {
+
+    z-index: 3 !important;
+    display: flex;
+    background: #151515 !important;
+    justify-content: space-between;
+
+  }
+
+  .tabhead1 {
+    font-size: small;
+    color: #ffffff;
+  }
+
+  .social-icontab {
+    display: flex;
+    margin: 7px 10px 0px 0px;
+  }
+
+  /* navbarsticky */
+  .navbarf {
+border-bottom: 2px solid #00000034;
+    background-color: #ffffff;
+  }
+
+  .adhibalogohead {
+    width: fit-content;
+    height: 60px;
+  }
+
+  .navheadt {
+    color: #000000;
+margin: 0px 35px 0px 0px;
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .tabhead1:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  .navheadt:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  /* videostyle */
+  .bgimg {
+    /* The image used */
+    background-image: url("./font/4983.jpg");
+
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .knownusheadv {
+    height: 65vh;
+
+  }
+
+  .icongroup {
+   
+    background-color: #000000;
+    height: 25vh;
+  }
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1380px) {
+
+  /* largescreen 1200px */
+  .tabnavhead {
+
+    display: flex;
+    background-color: #151515;
+    justify-content: space-between;
+
+  }
+
+  .tabhead1 {
+    font-size: small;
+    color: #ffffff;
+  }
+
+  .social-icontab {
+    display: flex;
+    margin: 7px 0px 0px 0px;
+  }
+
+  /* navbarsticky */
+  .navbarf {
+
+    background-color: #FFF;
+  }
+
+  /* navbarsticky */
+  .adhibalogohead {
+    width: 152px;
+    height: 55px;
+  }
+
+  .navheadt {
+    color: #000000;
+
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .tabhead1:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  .navheadt:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  /* videostyle */
+
+  .bgimg {
+    /* The image used */
+    background-image: url("./font/4983.jpg");
+
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .knownusheadv {
+    height: 67vh;
+
+  }
+
+  .icongroup {
+    height: 25vh;
+  }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 950px) {
+
+  /* mediumscreen  950px  tab,i mac*/
+  .tabnavhead {
+    background-color: #151515;
+    justify-content: space-around;
+  }
+
+  .social-icontab {
+    display: flex;
+    margin-top: 7px;
+  }
+
+  .tabhead1 {
+    font-size: small;
+    color: #ffffff;
+  }
+
+  /* navbarsticky */
+  .navbarf {
+    background-color: #FFF;
+  }
+
+  .adhibalogohead {
+    width: 152px;
+    height: 55px;
+  }
+
+  .navheadt {
+    color: #000000;
+
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .tabhead1:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  .navheadt:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  /* videostyle */
+
+  .bgimg {
+    /* The image used */
+    background-image: url("./font/4983.jpg");
+
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .knownusheadv {
+    height: 62vh;
+
+  }
+
+  .icongroup {
+    height: 30vh;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* mobilescreen  600px  narmal mbile */
+  .tabnavhead {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+
+
+
+  }
+
+  .social-icontab {
+    display: flex;
+    margin-top: 7px;
+
+
+  }
+
+  .tabhead1 {
+    font-size: small;
+    color: #ffffff;
+  }
+
+  /* navbarsticky */
+  .navbarf {
+    background-color: #FFF;
+  }
+
+  .adhibalogohead {
+    width: 152px;
+    height: 55px;
+  }
+
+
+
+  .navheadt {
+    color: #000000;
+
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .tabhead1:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  .navheadt:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  /* videostyle */
+
+  .bgimg {
+    /* The image used */
+    background-image: url("./font/4983.jpg");
+
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .knownusheadv {
+    height: 65vh;
+
+  }
+
+  .icongroup {
+    height: fit-content;
+  }
+
+}
+
+@media only screen and (max-width: 340px) {
+
+  /* extra small screen  340px mini phones */
+  .tabnavhead {
+    display: flex;
+    background-color: #151515;
+    justify-content: center;
+
+  }
+
+  .tabhead1 {
+    font-size: small;
+    color: #ffffff;
+
+  }
+
+  /* navbarsticky */
+  .navbarf {
+    background-color: #FFF;
+  }
+
+  .adhibalogohead {
+    width: 152px;
+    height: 55px;
+  }
+
+
+
+  .navheadt {
+    color: #000000;
+
+    font-size: large;
+    font-weight: bold;
+  }
+
+  .tabhead1:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  .navheadt:hover {
+    color: rgb(179, 179, 174);
+  }
+
+  /* videostyle */
+
+  .bgimg {
+    /* The image used */
+    background-image: url("./font/4983.jpg");
+
+
+    /* Full height */
+    height: 50%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .knownusheadv {
+    height: 61vh;
+
+  }
+
+  .icongroup {
+    height: fit-content;
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

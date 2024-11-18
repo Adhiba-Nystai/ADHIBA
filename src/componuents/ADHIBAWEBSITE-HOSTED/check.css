@@ -1,0 +1,16 @@
+.mainsase{
+padding: 15px;
+/* margin-left: -40px; */
+margin-top: 15px;
+    height: 200px;
+  }
+  .salservicebtn{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    /* height: 100px; */
+  
+  }
+.sertext{
+    color: #807979;
+}
